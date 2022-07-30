@@ -213,6 +213,7 @@ h6 {
     cursor: pointer;
 }
 
+
 /* Projects container */
 
 .projects-grid {
@@ -230,13 +231,38 @@ h6 {
 
 .project {
     transition-duration: 0.1s;
-    height: 180px;
+    height: 220px;
     background: linear-gradient(90deg, #f2d675 0%, #f2d675 12px, white 12px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.project-text {
+    flex-shrink: 1;
+    overflow: hidden;
 }
 
 .project:hover {
     transform: scale(1.05);
     transition-duration: 0.1s;
+}
+
+.project-text p {
+    padding-top: 4px;
+    color: rgb(97, 97, 97);
+}
+
+.control-box {
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: end;
+    gap: 24px;
+}
+
+.control-box i:hover {
+    color: #2271b1;
+    cursor: pointer;
 }
 
 
