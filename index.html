@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,63 +8,164 @@
     <title>Dashboard</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <main id="dashboard">
         <div id="sidebar-left">
             <div class="title">
-                <div class="nav-link"><h1>Dashboard</h1></div>
+                <a href="" class="nav-anchor">
+                    <div class="nav-link"><i class="fa-brands fa-flipboard"></i>
+                        <h1>Dashboard</h1>
+                    </div>
+                </a>
             </div>
             <div class="nav">
-                <div class="nav-link"><h4>Home</h4></div>
-                <div class="nav-link"><h4>Profile</h4></div>
-                <div class="nav-link"><h4>Messages</h4></div>
-                <div class="nav-link"><h4>History</h4></div>
-                <div class="nav-link"><h4>Tasks</h4></div>
-                <div class="nav-link"><h4>Communities</h4></div>
+                <a href="" class="nav-anchor">
+                    <div class="nav-link"><i class="fa-solid fa-house"></i>
+                        <h4>Home</h4>
+                    </div>
+                </a>
+                <a href="" class="nav-anchor">
+                    <div class="nav-link"><i class="fa-solid fa-address-card"></i>
+                        <h4>Profile</h4>
+                    </div>
+                </a>
+                <a href="" class="nav-anchor">
+                    <div class="nav-link"><i class="fa-solid fa-message"></i>
+                        <h4>Messages</h4>
+                    </div>
+                </a>
+                <a href="" class="nav-anchor">
+                    <div class="nav-link"><i class="fa-solid fa-clock"></i>
+                        <h4>History</h4>
+                    </div>
+                </a>
+                <a href="" class="nav-anchor">
+                    <div class="nav-link"><i class="fa-solid fa-list-check"></i>
+                        <h4>Tasks</h4>
+                    </div>
+                </a>
+                <a href="" class="nav-anchor">
+                    <div class="nav-link"><i class="fa-solid fa-people-group"></i>
+                        <h4>Communities</h4>
+                    </div>
+                </a>
             </div>
             <div class="settings">
-                <div class="nav-link"><h4>Settings</h4></div>
-                <div class="nav-link"><h4>Support</h4></div>
-                <div class="nav-link"><h4>Privacy</h4></div>
+                <a href="" class="nav-anchor">
+                    <div class="nav-link"><i class="fa-solid fa-gear"></i>
+                        <h4>Settings</h4>
+                    </div>
+                </a>
+                <a href="" class="nav-anchor">
+                    <div class="nav-link"><i class="fa-solid fa-circle-question"></i>
+                        <h4>Support</h4>
+                    </div>
+                </a>
+                <a href="" class="nav-anchor">
+                    <div class="nav-link"><i class="fa-solid fa-shield-halved"></i>
+                        <h4>Privacy</h4>
+                    </div>
+                </a>
             </div>
         </div>
         <div id="header-container">
-
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="search" placeholder="Search...">
+            <i class="fa-solid fa-bell"></i>
+            <div class="avatar"></div>
+            <p>Kindon Hope</p>
         </div>
         <div id="welcome-container">
-
+            <div class="avatar" id="hero-avatar"></div>
+            <div class="user-welcome">
+                <p>Hi there,</p>
+                <h2>Kindon Hope (@specialkope)</h2>
+            </div>
+            <button class="action-button">New</button>
+            <button class="action-button">Upload</button>
+            <button class="action-button">Share</button>
         </div>
         <div id="projects-container">
-            <h3>Your Projects</h2>
+            <h3>Your Projects</h3>
             <div class="projects-grid">
-                <article class="project">
-
+                <article class="grid-box project">
+                    Cool project
                 </article>
-                <article class="project">
-
+                <article class="grid-box project">
+                    Cool project
                 </article>
-                <article class="project">
-
+                <article class="grid-box project">
+                    Cool project
                 </article>
-                <article class="project">
-
+                <article class="grid-box project">
+                    Cool project
                 </article>
-                <article class="project">
-
+                <article class="grid-box project">
+                    Cool project
                 </article>
-                <article class="project">
-
+                <article class="grid-box project">
+                    Cool project
                 </article>
             </div>
         </div>
         <div id="sidebar-right">
-            <div class="announcements-container">
+            <div class="sidebar-right-container">
                 <h3>Announcements</h2>
+                    <div class="grid-box info-box">
+                        <div class="announcement">
+                            <h6>Site Maintenance</h6>
+                            <p>If this site were to be undergoing maintenance, this is where it would be announced! However, this is simply a static site.</p>
+                        </div>
+                        <hr>
+                        <div class="announcement">
+                            <h6>Community Share Day</h6>
+                            <p>Want to share a design? Great! You can't do it here though.</p>
+                        </div>
+                        <hr>
+                        <div class="announcement">
+                            <h6>Updated Privacy Policy</h6>
+                            <p>This page cares about your privacy! You can inspect the code and know that there is zero JavaScript being processed.</p>
+                        </div>
+                    </div>
             </div>
-            <div class="trending-container">
+            <div class="sidebar-right-container">
                 <h3>Trending</h2>
+                    <div class="grid-box info-box">
+                        <div class="trending-box">
+                            <div class="trending-avatar kindon-avatar"></div>
+                            <div class="trending-user">
+                                <p>@specialkope</p>
+                                <p>Kindon Hope</p>
+                            </div>
+                        </div>
+                        <div class="trending-box">
+                            <div class="trending-avatar carl-avatar"></div>
+                            <div class="trending-user">
+                                <p>@carlwithak</p>
+                                <p>Carl Madsen</p>
+                            </div>
+                        </div>
+                        <div class="trending-box">
+                            <div class="trending-avatar susan-avatar"></div>
+                            <div class="trending-user">
+                                <p>@librariansusan</p>
+                                <p>Susan Schmidt</p>
+                            </div>
+                        </div>
+                        <div class="trending-box">
+                            <div class="trending-avatar john-avatar"></div>
+                            <div class="trending-user">
+                                <p>@johnbusiness</p>
+                                <p>John Johnson</p>
+                            </div>
+                        </div>
+                    </div>
             </div>
         </div>
     </main>
+
+    <script src="https://kit.fontawesome.com/2d995dcb8e.js" crossorigin="anonymous"></script>
 </body>
+
 </html>
